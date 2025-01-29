@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-color: #FFFCF4;
 }
 
 html{
@@ -8,4 +9,50 @@ html{
 
 body{
     font-size: 1.6rem;
+}
+
+.header{
+    background-color: #FFFCF4;
+}
+/* Navbar */
+.navbar{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_title{
+    margin-right: 50rem;
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+.navbar_footer{
+    margin-left: 5rem;
+    width: 15rem;
+    height: 5rem;
+    background-color: black;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+.navbar_bar{
+    display: flex;
+    gap: 2.9rem;
+    font-size: 2rem;
+}
+
+.item1{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.item:hover{
+    font-weight: 800;
+    text-decoration: underline;
 }
