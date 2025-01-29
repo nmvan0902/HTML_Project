@@ -1,19 +1,27 @@
 *{
     box-sizing: border-box;
-    background-color: #FFFCF4;
 }
 
 html{
     font-size: 62.5%;
+    background-color: #FFFCF4;
 }
 
 body{
     font-size: 1.6rem;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
 .header{
     background-color: #FFFCF4;
 }
+
 /* Navbar */
 .navbar{
     margin-top: 2rem;
@@ -39,6 +47,12 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 3rem;
+    cursor: pointer;
+}
+
+.navbar_footer:hover{
+    color: black;
+    background-color: #FFFFFF;
 }
 
 .navbar_bar{
@@ -48,11 +62,69 @@ body{
 }
 
 .item1{
-    font-weight: 900;
+    text-shadow: 0 0 0.1rem black;
     text-decoration: underline;
 }
 
 .item:hover{
-    font-weight: 800;
-    text-decoration: underline;
+    text-shadow: 0 0 0.1rem black;
+    cursor: pointer;
+}
+
+.header_content{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_side_left{
+    display: flex; 
+    position: relative;
+}
+
+.header_side_left_container{
+    width: 26rem;
+    height: 26rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 5rem;
+    right: -10rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+
+.item_header{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.header_side_left_container_item{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ih1{
+    background-color: #fcf1d1;
+}
+
+.ih2{
+    background-color: #FCEFFF;
+}
+
+.ih3{
+    background-color: #EBEAFF;
 }
