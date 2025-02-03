@@ -27,7 +27,7 @@ body{
 /* Header */
 .header{
     background-color: #FFFCF4;
-    width: 80em;
+    width: 85em;
 }
 
 /* Navbar */
@@ -237,7 +237,7 @@ body{
 
 .content_one{
     margin-top: 15em;
-    width: 80em;
+    width: 85em;
 }
 
 .content_element_one_title{
@@ -408,7 +408,7 @@ body{
 
 .content_two{
     margin-top: 5em;
-    width: 80em;
+    width: 85em;
     display: flex;
     gap: 15em;
     padding-bottom: 5em;
@@ -467,10 +467,70 @@ body{
 
 .container_main_content_three{
     display: flex;
-    justify-content: center;
-    
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
 }
 
 .content_three{
-
+    margin-top: 15em;
+    width: 85em;
+    display: flex;
+    gap: 10em;
 }
+
+.content_three_side_left{
+    display: flex;
+    gap: 2em;
+    position: relative;
+}
+
+.content_three_img{
+    width: 20em;
+    height: 30em;
+    border-radius: 1em;
+}
+
+.learn2{
+    position: relative;
+    bottom: 2em;
+}
+
+.content_three_side_right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;
+}
+
+.three_side_right_title{
+    line-height: 1.5em;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.three_side_right_content{
+    font-size: 1.1em;
+    color: rgb(86, 84, 84);
+    line-height: 1.7em;
+}
+
+.three_side_right_content_two{
+    font-size: 1.1em;
+    color: rgb(100, 99, 99);
+    line-height: 1.7em;
+}
+
+.three_side_right_button{
+    width: 7.5em;
+    height: 3.5em;
+    background-color: #FFB900;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
