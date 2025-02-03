@@ -232,10 +232,11 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
+    padding-bottom: 15em;
 }
 
 .content_one{
-    margin-top: 20em;
+    margin-top: 15em;
     width: 80em;
 }
 
@@ -247,6 +248,53 @@ body{
 .content_element_one_title_content{
     margin-top: 1.6rem;
     font-size: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_element_one_title_content_fullside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_arrow{
+    display: flex;
+    gap: 0.5em;
+}
+
+.arrow_items{
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    border: 0.1rem solid #FFB900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow_items:hover{
+    background-color: #FFB900;
+}
+
+.arrow_item{
+    width: 1rem;
+    height: 1rem;
+    border-top: 0.2rem solid #FFB900;
+    border-left: 0.2rem solid #FFB900;
+    transform: rotate(45deg);
+}
+
+.arrow_items:hover .arrow_item{
+    border-top: 0.2rem solid white;
+    border-left: 0.2rem solid white;
+}
+
+.left{
+    transform: rotate(315deg);
+}
+
+.right{
+    transform: rotate(135deg);
 }
 
 .content_one_cards{
@@ -255,8 +303,174 @@ body{
     justify-content: space-between;
 }
 
+.content_one_card{
+    display: flex;
+    flex-direction: column;
+    gap:0em;
+}
+
 .content_one_img_card{
     width: 26em;
     border-radius: 1em 1em 0em 0em;
 }
 
+
+.content_one_card_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1.3em;
+    padding-top: 2em;
+}
+
+.content_one_card_title_name{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.content_one_card_title_star{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.content_one_card_title_star_name{
+    color: #F8CA00;
+}
+
+.star {
+    width: 1.5em;  
+    aspect-ratio: 1;
+    background: #F8CA00;
+    clip-path: polygon(50% 0,
+      calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+      calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+      calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+      calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+     ); 
+    /* or more simple
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
+     */
+}
+
+.content_one_card_main_content{
+    margin-top: 1em;
+    padding: 0em 1.3em;
+}
+
+.content_one_card_container_price{
+    margin-top: 1em;
+    padding: 0em 1.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.accept_course{
+    width: 8em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 3em;
+    font-weight: 600;
+}
+
+.accept_course:hover{
+    background-color: #F8CA00;
+}
+
+.container_content_card{
+    border: 0.02em solid rgb(230, 222, 222);
+    border-top: #FFFFFF;
+    padding-bottom: 1.5em;
+    border-radius: 0em 0em 1em 1em;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.content_one_card:hover .content_one_img_card,.content_one_card:hover .container_content_card{
+    box-shadow: 0em 0em 0.5em rgb(236, 219, 219);
+    border: #FFFFFF;
+}
+
+.container_main_content_two{
+    background-color: #2E2100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_two{
+    margin-top: 5em;
+    width: 80em;
+    display: flex;
+    gap: 15em;
+    padding-bottom: 5em;
+}
+
+.img_content_two{
+    width: 6em;
+    height: 6em;
+    clip-path: circle(40%);
+}
+
+.content_two_left_name_img{
+    margin-top: 2rem;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.content_two_left_profession{
+    margin-top: 1em;
+    color: #bcb9b9;
+}
+
+.list_dots{
+    display: flex;
+    gap:0.5em;
+}
+
+.dot_item{
+    margin-top: 2em;
+    width: 0.4em;
+    height: 0.4em;
+    background-color: #4e3a0a;
+    clip-path: circle(50%);
+}
+
+.dot1{
+    background-color: #FFB900;
+}
+
+.content_two_side_right{
+    display: flex;
+    flex-direction: column; 
+}
+
+.content_two_side_right_content{
+    margin-top: 3em;
+}
+
+.content_two_side_right_content_passage{
+    font-size: 1.8em;
+    font-style: italic;
+    color: #FFFFFF;
+    line-height: 2em;
+}
+
+.container_main_content_three{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content_three{
+
+}
