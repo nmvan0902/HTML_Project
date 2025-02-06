@@ -478,6 +478,8 @@ body{
     width: 85em;
     display: flex;
     gap: 10em;
+    position: relative;
+    padding-bottom: 10em;
 }
 
 .content_three_side_left{
@@ -534,3 +536,178 @@ body{
     font-weight: 600;
 }
 
+.content_three_side_left_line2{
+    max-width: 50em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em
+}
+
+
+.content_three_side_left_line2_tittle{
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.content_three_side_left_line2_content{
+    font-size: 1.4em;
+    line-height: 1.6em;
+    font-weight: 300;
+    color: #5a5757;
+}
+
+.content_three_side_left_line2_button{
+    width: 8em;
+    height: 2.8em;
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #FFB900;
+    border-radius: 2em;
+}
+
+.content_three_side_right_line2_img{
+    width: 30em;
+    height: 30em;
+    border-radius: 1.5em;
+    position: relative;
+    top: -3em;
+}
+
+.container_main_content_four{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFCF4;
+    align-items: center;
+}
+
+.content_four{
+    margin-top: 5em;
+    width: 85em;
+    padding-bottom: 7em;
+}
+
+.content_four_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8em;
+}
+
+.content_four_header_title{
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+.content_four_header_content{
+    font-size: 1.2em;
+    max-width: 28em;
+    text-align: center;
+    color: #6f6d6d;
+}
+
+.content_four_list_cards{
+    margin-top: 2.5em;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2em;
+}
+
+.content_four_card{
+    border-radius: 1em 1em 0em 0em;
+}
+
+.content_four_card_img{
+    max-width: 26em;
+    border-radius: 1em 1em 0em 0em;
+    height: 20em;
+}
+
+.content_card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 26em;
+    /* box-shadow: 0.1em 0.1em 0.5em rgb(194, 193, 193); */
+    padding-bottom: 2.5em;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.content_four_card:hover{
+    box-shadow: 0.1em 0.1em 0.5em rgb(194, 193, 193);
+}
+
+.day_card_container{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    margin-left: 1.2em;
+}
+
+.day_card_symbol_circle{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #F8CA00;
+    clip-path: circle(20%);
+}
+
+.day_card_content{
+    font-size: 1.1em;
+    color: #5b5959;
+}
+
+.content_card_divider{
+    margin-top: 1em;
+    margin-left: 1.4em;
+    width: 14em;
+    height: 0.05em;
+    background-color: #c9c4c4;
+}
+
+.content_card_title{
+    margin-top: 1em;
+    max-width: 24em;
+    margin-left: 1.4em;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.content_card_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 3.5em;
+    background-color: black;
+    margin-top: 1em;
+    margin-left: 1.4em;
+    color: white;
+    border-radius: 2em;
+    font-weight: 600;
+}
+
+.content_card_button:hover{
+    background-color: #F8CA00;
+}
+
+.content_four_list_dots{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.content_four_dot{
+    width: 1em;
+    height: 1em;
+    clip-path: circle(20%);
+    background-color: #5F5B53;
+}
+
+.four_dot2{
+    background-color: #F8CA00;
+}
